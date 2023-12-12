@@ -1,8 +1,9 @@
 
 const Navbar = () => {
   const navLink = <>
-    <li className="hover:text-sky-300 text-xl mr-4">Home</li>
-    <li className="hover:text-sky-300 text-xl mr-4">About</li>
+    <li className="hover:text-sky-300 text-xl mr-4"><a href="#">Home</a></li>
+    <li className="hover:text-sky-300 text-xl mr-4"><a href="#about">About</a></li>
+    <li className="hover:text-sky-300 text-xl mr-4"><a href="#skill">Skill</a></li>
   </>
   return (
     <div className="bg-gray-800 text-white fixed w-full">
@@ -27,7 +28,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box text-gray-800 w-52"
             >
              {navLink}
             </ul>

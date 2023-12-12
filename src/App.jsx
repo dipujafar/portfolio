@@ -1,6 +1,7 @@
 import About from "./About"
 import Banner from "./Banner"
 import Navbar from "./Navbar"
+import Skill from "./Skill"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <About></About>
+      <Skill></Skill>
     </>
   )
 }

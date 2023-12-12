@@ -2,9 +2,9 @@
 
 const About = () => {
     return (
-        <div className="bg-gray-700 text-white py-10">
+        <div id="about" className="bg-gray-700 text-white py-16">
             <div className="max-w-7xl mx-auto">
-            <h1 className="text-4xl uppercase text-center pt-5 font-medium">About <span className="text-sky-400">Me</span></h1>
+            <h1 className="text-4xl uppercase text-center  font-medium">About <span className="text-sky-400">Me</span></h1>
             <div className="flex items-center flex-col lg:flex-row gap-3">
                 <div className="flex-1">
                     <h1 className="text-2xl uppercase font-medium p-2 md:p-0 mt-2">Personal Info</h1>
