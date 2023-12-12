@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <div className="bg-gray-800 text-white">
             <div className="max-w-7xl mx-auto pt-20 pb-5 flex flex-col md:flex-row justify-center items-center">
-            <div className="space-y-2 md:w-1/2 mb-2">
+            <div className="space-y-3 md:w-1/2 mb-2">
                 <h3 className="text-2xl font-medium ">Hi, It's Me</h3>
                 <h1 className="text-4xl font-medium">Jafar Uddin Dipu</h1>
                 <h3 className="text-2xl font-medium">I'm a <span className="text-sky-400"> Web Developer </span></h3>
@@ -16,6 +16,7 @@ const Banner = () => {
                     <a href="#"><FaLinkedin className='text-3xl text-sky-400 border-2 border-sky-400 rounded-full shadow-sm shadow-sky-400 p-1'  /></a>
                     <a href="https://github.com/dipujafar" target='blank'><FaGithub className='text-3xl text-sky-400 border-2 border-sky-400 rounded-full shadow-sm shadow-sky-400 p-1' /></a>
                 </div>
+                <a href='resume.pdf'  download className='btn btn-outline btn-info uppercase'>Download Resume</a>
             </div>
             <div>
                 <img src={my_picture} alt="" className='border rounded-full bg-gray-700 border-sky-300 shadow-lg shadow-blue-400' />
