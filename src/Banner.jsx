@@ -6,9 +6,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 const Banner = () => {
-  // useEffect(() => {
-  //     Aos.init();
-  //   }, []);
   useEffect(() => {
     Aos.init();
   }, []);
@@ -56,7 +53,7 @@ const Banner = () => {
               <FaInstagram className="text-3xl text-sky-400 border-2 border-sky-400 rounded-full shadow-sm shadow-sky-400 p-1" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/jafar-uddin-dipu-51b9082a7/"
               data-aos="fade-left"
               data-aos-anchor="#example-anchor"
               data-aos-offset="500"
