@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="bg-gray-700 text-white md:py-32 py-16  "
+      className="bg-gray-700 text-white  min-h-screen flex flex-col justify-center items-center  pt-5"
      
     >
       <div className="max-w-7xl mx-auto"  data-aos="fade-up"
@@ -54,14 +54,14 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 lg:ml-20">
             <div className="mt-10 flex gap-3 flex-col md:flex-row">
               <h1 className="text-3xl font-medium border-2 py-4 px-6 border-sky-400 shadow-sm shadow-sky-400 flex-1">
                 1+ Year
                 <br /> <span className="pl-24 text-sky-500">Experience</span>
               </h1>
               <h1 className="text-3xl font-medium border-2 py-4 px-6 border-sky-400 shadow-sm shadow-sky-400 flex-1 ">
-                8+ <br /> <span className="pl-4 text-sky-500">Projects</span>
+                10+ <br /> <span className="pl-4 text-sky-500">Projects</span>
               </h1>
             </div>
           </div>

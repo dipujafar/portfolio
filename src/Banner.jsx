@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import my_picture from "../src/assets/image/picture.png";
 import { TiSocialFacebook } from "react-icons/ti";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
@@ -10,8 +11,8 @@ const Banner = () => {
     Aos.init();
   }, []);
   return (
-    <div className="bg-gray-800 text-white min-h-screen">
-      <div className="max-w-7xl mx-auto pt-16 md:pt-40 pb-5 flex flex-col md:flex-row justify-center items-center">
+    <div className="bg-gray-800 text-white min-h-screen px-2">
+      <div className="max-w-7xl mx-auto pt-16 md:pt-40 pb-5 flex flex-col md:flex-row justify-center items-center gap-5">
         <div className="space-y-3 md:w-1/2 mb-2">
           <h3 className="text-2xl font-medium " data-aos="zoom-in-left">
             Hi, It's Me
@@ -31,6 +32,13 @@ const Banner = () => {
           >
             I'm a <span className="text-sky-400"> Web Developer </span>
           </h3>
+          <p className="max-w-xl">
+            Passionate Frontend Developer, Me, dedicated to
+            becoming a proficient MERN web stack Developer.
+            Seeking dynamic opportunities to contribute expertise in MongoDB,
+            Express.js, React, and Node.js, crafting cutting-edge solutions that
+            redefine web development standards.
+          </p>
           <div className="pt-5 flex gap-3">
             <a
               href="https://www.facebook.com/mdjafor.uddin.9674"

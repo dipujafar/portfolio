@@ -26,7 +26,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="bg-gray-800 text-white fixed  lg:w-full">
+    <div className="bg-gray-800 text-white fixed  md:w-full">
       <div className="navbar max-w-7xl mx-auto">
         <div
           className="navbar-start"
@@ -58,18 +58,19 @@ const Navbar = () => {
               {navLink}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl text-sky-400">JAFAR DIPU</a>
+          <a className="btn btn-ghost md:text-xl text-sky-400">JAFAR DIPU</a>
         </div>
-        <div className="navbar-center hidden lg:flex"
-        data-aos="fade-up"
-        data-aos-duration="3000">
+        <div
+          className="navbar-center hidden lg:flex"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <ul className="menu menu-horizontal px-1">{navLink}</ul>
         </div>
-        <div className="navbar-end" data-aos="fade-up"
-     data-aos-duration="3000">
+        <div className="navbar-end" data-aos="fade-up" data-aos-duration="3000">
           <a
             href="https://drive.google.com/file/d/18hXGB2CHvQPqsTf29heUhRUzWkWaGfiN/view?usp=drive_link"
-            className="btn btn-outline btn-sm btn-info hidden m"
+            className="btn btn-outline btn-sm btn-info hidden lg:flex"
             target="blank"
           >
             Resume
