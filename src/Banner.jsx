@@ -2,6 +2,7 @@
 import my_picture from "../src/assets/image/picture.png";
 import { TiSocialFacebook } from "react-icons/ti";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import Typewriter from 'typewriter-effect';
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -26,11 +27,20 @@ const Banner = () => {
             Jafar Uddin Dipu
           </h1>
           <h3
-            className="text-2xl font-medium"
+            className="text-2xl font-medium flex gap-2"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
           >
-            I'm a <span className="text-sky-400"> Web Developer </span>
+            I'm a <span className="text-sky-400"> <Typewriter options={{
+              autoStart: true,
+              loop: true,
+              delay: 50,
+              strings: [
+                "Frontend Developer.",
+                "React JS Developer.",
+                "MERN Stack Developer."
+              ]
+            }}></Typewriter> </span>
           </h3>
           <p className="max-w-xl">
             Passionate Frontend Developer, Me, dedicated to
