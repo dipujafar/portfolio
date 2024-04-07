@@ -26,7 +26,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="bg-gray-800 text-white fixed  md:w-full">
+    <div className="bg-gray-800 bg-opacity-20 text-white fixed z-10  md:w-full">
       <div className="navbar max-w-7xl mx-auto">
         <div
           className="navbar-start"
@@ -58,7 +58,7 @@ const Navbar = () => {
               {navLink}
             </ul>
           </div>
-          <a className="btn btn-ghost md:text-xl text-sky-400">JAFAR DIPU</a>
+          <a href="#" className="btn btn-ghost md:text-xl text-sky-400">JAFAR DIPU</a>
         </div>
         <div
           className="navbar-center hidden lg:flex"
@@ -69,7 +69,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end" data-aos="fade-up" data-aos-duration="3000">
           <a
-            href="https://drive.google.com/file/d/18hXGB2CHvQPqsTf29heUhRUzWkWaGfiN/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1FgzTn89a4LjVBAO9CgJQYtFSJ1-HHULK/view?usp=sharing"
             className="btn btn-outline btn-sm btn-info hidden lg:flex"
             target="blank"
           >

@@ -1,5 +1,6 @@
 import About from "./About"
 import Banner from "./Banner"
+import Contract from "./Contract"
 import Education from "./Education"
 import Footer from "./Footer"
 import Navbar from "./Navbar"
@@ -16,7 +17,9 @@ function App() {
       <Skill></Skill>
        <Education></Education>
        <Projects></Projects>
+       <Contract></Contract>
        <Footer></Footer>
+       
     </>
   )
 }

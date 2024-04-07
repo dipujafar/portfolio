@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="bg-gray-700 text-white  min-h-screen flex flex-col justify-center items-center  pt-5"
+      className="bg-gray-700 text-white  min-h-screen flex flex-col justify-center items-center  py-5"
      
     >
       <div className="max-w-7xl mx-auto"  data-aos="fade-up"
