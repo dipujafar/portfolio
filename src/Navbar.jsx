@@ -69,7 +69,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end" data-aos="fade-up" data-aos-duration="3000">
           <a
-            href="https://drive.google.com/file/d/1FgzTn89a4LjVBAO9CgJQYtFSJ1-HHULK/view?usp=sharing"
+            href="https://drive.google.com/file/d/1IHaV7nTl_h6a-CWY75SLetpGuEiGHFRA/view?usp=sharing"
             className="btn btn-outline btn-sm btn-info hidden lg:flex"
             target="blank"
           >

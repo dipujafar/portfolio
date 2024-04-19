@@ -1,8 +1,16 @@
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 /* eslint-disable react/no-unescaped-entities */
 const Projects = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div id="project" className="bg-gray-700 text-white">
-      <div className="max-w-7xl mx-auto py-16 px-2">
+      <div className="max-w-7xl mx-auto py-16 px-2"  data-aos="fade-up"
+        data-aos-duration="2000">
         <h1 className="text-4xl text-center uppercase font-medium">
           Latest <span className="text-sky-400">Projects</span>{" "}
         </h1>

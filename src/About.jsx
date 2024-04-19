@@ -28,12 +28,14 @@ const About = () => {
                 <h3 className="text-xl">
                   Name : <span className="font-medium">Jafar Uddin Dipu</span>
                 </h3>
-                <h3 className="text-xl">
-                  Age : <span className="font-medium"> 22 Years</span>
-                </h3>
+                
                 <h3 className="text-xl">
                   Nationality :{" "}
                   <span className="font-medium"> Bangladeshi</span>
+                </h3>
+                <h3 className="text-xl">
+                  Language :{" "}
+                  <span className="font-medium">Bangla, English</span>
                 </h3>
               </div>
               <div className="space-y-1">
@@ -48,10 +50,7 @@ const About = () => {
                   Email :{" "}
                   <span className="font-medium">dipujafarmr@gmail.com</span>
                 </h3>
-                <h3 className="text-xl">
-                  Language :{" "}
-                  <span className="font-medium">Bangla, English</span>
-                </h3>
+               
               </div>
             </div>
           </div>
@@ -59,7 +58,7 @@ const About = () => {
             <div className="mt-10 flex gap-3 flex-col md:flex-row">
               <h1 className="text-3xl font-medium border-2 py-4 px-6 border-sky-400 shadow-sm shadow-sky-400 flex-1">
                 1+ Year
-                <br /> <span className="pl-24 text-sky-500">Experience</span>
+                <br /> <span className="pl-24 text-sky-500">Learning Experience</span>
               </h1>
               <h1 className="text-3xl font-medium border-2 py-4 px-6 border-sky-400 shadow-sm shadow-sky-400 flex-1 ">
                 10+ <br /> <span className="pl-4 text-sky-500">Projects</span>
@@ -68,7 +67,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" mt-10 flex flex-col lg:flex-row gap-5 max-w-6xl mx-auto p-2"  data-aos="fade-up"
+      <div className=" mt-10 flex flex-col lg:flex-row gap-5 max-w-7xl mx-auto p-2"  data-aos="fade-up"
       data-aos-duration="2000">
         <div className="flex-1">
           <h1 className="text-2xl uppercase font-medium mb-3">My <span className="text-sky-400">Goal :</span> </h1>
