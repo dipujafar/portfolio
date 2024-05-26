@@ -44,6 +44,7 @@ const Banner = () => {
                     strings: [
                       "Frontend Developer.",
                       "React JS Developer.",
+                      "Node JS Developer.",
                       "MERN Stack Developer.",
                     ],
                   }}

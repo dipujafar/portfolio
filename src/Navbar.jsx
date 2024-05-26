@@ -81,7 +81,7 @@ const Navbar = () => {
             data-aos-duration="3000"
           >
             <a
-              href="https://drive.google.com/file/d/1IHaV7nTl_h6a-CWY75SLetpGuEiGHFRA/view?usp=sharing"
+              href="https://drive.google.com/file/d/1OwKAzII-DK9j70a6lPSmQeCsch8LX_H7/view?usp=sharing"
               className="btn btn-outline btn-sm btn-info "
               target="blank"
             >
