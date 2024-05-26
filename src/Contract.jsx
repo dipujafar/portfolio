@@ -33,7 +33,7 @@ const Contract = () => {
       );
   };
   return (
-    <div className="bg-gray-900 py-16 px-2 text-white">
+    <div id="contact" className="bg-gray-900 py-16 px-2 text-white">
       <h1 className="text-4xl text-center uppercase font-medium">
         Contract <span className="text-sky-400">Me</span>{" "}
       </h1>

@@ -52,11 +52,12 @@ const Banner = () => {
               </span>
             </h3>
             <p className="max-w-xl">
-              Passionate Frontend Developer, Me, dedicated to becoming a
-              proficient MERN web stack Developer. Seeking dynamic opportunities
-              to contribute expertise in MongoDB, Express.js, React, and
-              Node.js, crafting cutting-edge solutions that redefine web
-              development standards.
+              Passionate MERN stack web developer me, dedicated to becoming a
+              proficient software engineer. I love using MongoDB, Express.js,
+              React, and Node.js to build cool websites. Now, I want to learn
+              more about all aspects of software development so I can create
+              even better and more advanced software. I'm ready to keep learning
+              and growing to become the best software engineer I can be.
             </p>
             <div className="pt-5 flex gap-3">
               <a

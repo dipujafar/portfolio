@@ -24,6 +24,9 @@ const Navbar = () => {
       <li className="hover:text-sky-300 text-xl mr-4">
         <a href="#project">My Project</a>
       </li>
+      <li className="hover:text-sky-300 text-xl mr-4">
+        <a href="#contact">Contact</a>
+      </li>
     </>
   );
   return (
